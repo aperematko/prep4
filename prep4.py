@@ -22,7 +22,7 @@ GENERAL HINT: save values in local variables! Even if you pop an item off of
 a stack, it's not "gone forever" if you assign it to a variable.
 """
 from typing import Any, Optional
-from preps.prep4.adts import Stack, Queue
+from adts import Stack, Queue
 
 
 def peek(stack: Stack) -> Optional[Any]:
