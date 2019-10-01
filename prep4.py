@@ -25,6 +25,8 @@ from typing import Any, Optional
 from adts import Stack, Queue
 
 #testing
+def test_pr()
+   pass
 
 def peek(stack: Stack) -> Optional[Any]:
     """Return the top item on the given stack.
